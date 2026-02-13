@@ -1,1 +1,1 @@
-# AISLOPs
+https://www.dropbox.com/scl/fo/2j0mvu6vbdvzed3pit88r/AHCEhLTiOwQhRL0uZN469H4?rlkey=8mimam9qinm1qgszklurd5ygh&st=omb4cqzv&dl=0 Download here then goı to extentions and load unpackaked extension (Note Must extract it fro mzip. file but keep slop_blocker unextracted and pick slop_blocker
