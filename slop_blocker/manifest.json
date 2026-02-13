@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Content Blocker",
+  "version": "1.0",
+  "description": "Blocks controversial YouTube channels and AI slop.",
+
+  "permissions": ["storage"],
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
